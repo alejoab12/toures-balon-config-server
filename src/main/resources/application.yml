@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: toures-balon-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/alejoab12/config-server-properties
+          basedir: target/config
+            
+server:
+  port: 8888
+
